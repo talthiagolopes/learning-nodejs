@@ -1,10 +1,12 @@
 let person = {
-    name: 'Porra Lopes',
+    name: 'Thiago Lopes',
     age: 20,
-    great() {
+    greet() {
         console.log('Hi, I am ' + this.name);
     }
 };
+
+person.greet();
 
 let personCopy = {...person};
 
